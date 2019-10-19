@@ -1,7 +1,8 @@
 import React from 'react';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
+import { Navbar } from './components/Navbar';
 
-const theme = {
+export const theme = {
   darkRed: '#7F0308',
   red: '#BF3035',
   lightRed: '#E6ACAE',
@@ -57,7 +58,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
-
+        <Navbar />
         <GlobalStyle />
       </div>
     </ThemeProvider>
