@@ -25,6 +25,7 @@ const StyledHeading = styled.div`
 
   color: ${props => props.theme[props.color]};
   font-weight: ${props => props.theme.bold};
+  margin: 0;
 `;
 
 
